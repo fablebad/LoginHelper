@@ -55,8 +55,8 @@
 - 确保这些函数没有被禁用：`putenv` `proc_open` `proc_get_status`
 
 #### lnmp.org 用户
--lnmp的版本为1.9
--php版本要求要大于8.1.0 版本为8.1.7
+- lnmp的版本为1.9
+- php版本要求要大于8.1.0 版本为8.1.7
 - 网站目录加上 `/public`
 - 将 `include rewrite/none.conf;` 改成 `include rewrite/thinkphp.conf;`
 
@@ -264,4 +264,5 @@ Route::get('/amdyes', 'index/test');
 
 #### 设置邮件转发
 参考官方教程 [https://support.google.com/mail/answer/10957](https://support.google.com/mail/answer/10957)
+
 
